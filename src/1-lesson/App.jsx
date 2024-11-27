@@ -1,3 +1,5 @@
-export const App = ()=>{
-    return <div>Hello - lesson 2</div>
+function App () {
+    return <div>Hello from decloration</div>
 }
+
+export default App;
