@@ -1,0 +1,24 @@
+.main-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.flower_card{
+    width: 258px;
+    height: 340px;
+    border: 1px solid #e0e0e0e0;
+}
+
+.flower-wrapper{
+    height: 60%;
+    background-color: #fbfbfbfb;
+}
+
+.flower-img{
+    width: 100%;
+    height: 100%;
+}
+
+.detail-wrapper{
+    padding: 20px;
+}
