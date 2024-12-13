@@ -4,7 +4,9 @@ import ReactDOM from 'react-dom/client'
 import "./style.css";
 // import App2 from "./2-lesson/App2"
 // import App3 from './3-lesson/app3';
-import App4 from "./ex/App4";
+// import App_ex from "./ex/App_ex";
+// import Appex from './ex/Appex';
+import App_ex1 from './ex/App_ex1';
 
 
 ReactDOM. createRoot(document.getElementById('root')).render(
@@ -12,6 +14,8 @@ ReactDOM. createRoot(document.getElementById('root')).render(
     {/* <App /> */}
     {/* <App2 /> */}
     {/* <App3 /> */}
-    <App4 />
+    {/* <App_ex /> */}
+    {/* <Appex /> */}
+    <App_ex1 />
   </React.StrictMode>,
 )

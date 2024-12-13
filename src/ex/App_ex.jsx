@@ -12,10 +12,10 @@ const style_wrapper = {
 
 
 
-class App4 extends Component {
+class App_ex extends Component {
     constructor(){
         super()
-        this.state={
+        this.state={ 
             data:[
                 {
                     id:"1",
@@ -200,4 +200,4 @@ class App4 extends Component {
     }
 }
 
-export default App4;
+export default App_ex;
