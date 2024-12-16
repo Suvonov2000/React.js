@@ -4,7 +4,7 @@ class Appage extends Component {
     constructor() {
         super();
         this.state = {
-            status: "eshmat"
+            status: "initial"
         }
     }
     render() {
@@ -21,7 +21,7 @@ class Appage extends Component {
         return (
             <div style={{ width: "100%", height: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }} >
                 {
-                    this.state.status === "eshmat" ? <button onClick={attempt} >Kirish</button> : this.state.status === "eligable" ? <h3>Kirish mumkin</h3> : <h3>Kirish mumkin emas</h3>
+                    this.state.status === "initial" ? <button onClick={attempt} >Kirish</button> : this.state.status === "eligable" ? <h3>Kirish mumkin</h3> : <h3>Kirish mumkin emas</h3>
                 }
             </div>
         )
