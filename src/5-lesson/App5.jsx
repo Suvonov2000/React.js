@@ -10,10 +10,10 @@ const App5 = () =>{
 
             </Wrapper.Left>
             <Wrapper.Middle>
-                <Wrapper.Middle.Item>Home</Wrapper.Middle.Item>
-                <Wrapper.Middle.Item>Shop</Wrapper.Middle.Item>
-                <Wrapper.Middle.Item>Plant Care</Wrapper.Middle.Item>
-                <Wrapper.Middle.Item>Blogs</Wrapper.Middle.Item>
+                <Wrapper.Middle.Item math={10}>Home</Wrapper.Middle.Item>
+                <Wrapper.Middle.Item  math={50}>Shop</Wrapper.Middle.Item>
+                <Wrapper.Middle.Item  math={12}>Plant Care</Wrapper.Middle.Item>
+                <Wrapper.Middle.Item  math={2}>Blogs</Wrapper.Middle.Item>
             </Wrapper.Middle>
             <Wrapper.Right>
             <Badge dot>

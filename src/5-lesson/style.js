@@ -32,6 +32,14 @@ line-height: 20.11px;
 text-align: left;
 position:relative;
 
+${(props)=>{
+    console.log(props,"props");
+    return`
+    color: ${props.math >= 10? "red" : "green"};
+    `
+}};
+
+
 &::before {
 content:" ";
 display:none;
