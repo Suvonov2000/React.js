@@ -11,7 +11,8 @@ import Apprei from './ex/Apprei';
 // import App_ex from "./ex/App_ex";
 // import Appex from './ex/Appex';
 // import App_ex1 from './ex/App_ex1';
-import App5 from "./5-lesson/App5";
+// import App5 from "./5-lesson/App5";
+import App6 from "./6-lesson/App6";
 import "./style.css"
 
 
@@ -28,6 +29,7 @@ ReactDOM. createRoot(document.getElementById('root')).render(
     {/* <App4ex /> */}
     {/* <Appage/> */}
     {/* <Apprei /> */}
-    <App5 />
+    {/* <App5 /> */}
+    <App6 />
   </React.StrictMode>,
 )
