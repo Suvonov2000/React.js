@@ -35,7 +35,7 @@ function App6(){
     },[count,count2])
     
     return(
-        <div  style={style_wrapper}>
+        <div style={style_wrapper} >
             <div>
             <div style={style_wrapper2}>
             <Button onClick={decrement} type="primary" danger>
